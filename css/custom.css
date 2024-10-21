@@ -9,9 +9,41 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
+    font-family: "Merriweather", serif;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Anton", sans-serif;
 
+}
+
+
+/********************/
+/******* Hero ******/
+/********************/
+
+
+header.masthead{
+    background-image: url(../img/OIP.jpg);
+}
+
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #CA2B30;
+}
+
+section.bg-primary{
+    background-color:#CA2B30 !important;
+}
+
+
+#mainNav.navbar-shrink {
+    background-color: #fff;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color:#041004;
+   
 }
