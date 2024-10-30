@@ -47,3 +47,13 @@ section.bg-primary{
     color:#041004;
    
 }
+
+hr.divider{
+    color:#CA2B30;
+    background-color: black;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: (var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
